@@ -1,0 +1,8 @@
+# Core dependencies - enough to run everything with the default HiGHS solver.
+numpy>=1.23
+pandas>=1.5
+scipy>=1.11
+matplotlib>=3.6
+
+# Optional: the PuLP/CBC back-end (python -m ctvopt solve --solver pulp)
+# pulp>=2.7

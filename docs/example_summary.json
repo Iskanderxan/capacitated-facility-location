@@ -1,0 +1,29 @@
+{
+  "method": "mip-highs",
+  "status": "optimal",
+  "solve_seconds": 7.003,
+  "n_servers_available": 200,
+  "n_dmas": 800,
+  "costs": {
+    "setup": 1010388.92,
+    "delivery": 2314387.23,
+    "total": 3324776.15,
+    "n_open": 108
+  },
+  "lower_bound_of_solved_model": 3295362.793192359,
+  "info": {
+    "k_used": 10,
+    "formulation": "strong",
+    "n_variables": 8200,
+    "n_constraints": 9000,
+    "solver_gap": 0.008846717247877216,
+    "attempts": [
+      {
+        "k": 10,
+        "status": "optimal"
+      }
+    ]
+  },
+  "full_problem_lp_bound": 3254844.29,
+  "max_gap_to_optimal_pct": 2.1485
+}
